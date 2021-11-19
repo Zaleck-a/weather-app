@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.sidebarBg{
+    background-color: #1E213A;
+    color: #E7E7EB;
+}
+
+.wheatherBg{
+    background-color: #100E1D;
+}
+
+.back-cloud{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 10%;
+    background-image: url(./assets/Cloud-background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 130%;
+    filter: opacity(10%);
+    object-fit: cover;
+}
+
+.items-sidebar{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.buttons-group{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.8rem 1.8rem 0px 1.8rem;
+}
+
+.buttons-group i{
+    padding-top: 2px;
+    font-size: 22px;
+}
+
+.items-sidebar img{
+    width: 40%;
+    margin-right: 25px;
+}
+
+.degrees{
+    font-size: 144px;
+    font-weight: 500;
+    color: #E7E7EB;
+}
+
+.degrees span{
+    font-size: 48px;
+    font-weight: 500;
+    color: #A09FB1;
+}
+
+.kind-weather{
+    font-size: 36px;
+    font-weight: 600;
+    color: #A09FB1;
+}
+
+.date{
+    font-size: 18px;
+    font-weight: 500;
+    color: #88869D;
+}
