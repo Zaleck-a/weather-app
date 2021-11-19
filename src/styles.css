@@ -5,6 +5,11 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.container-weather{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 
 .sidebarBg{
     background-color: #1E213A;
@@ -45,9 +50,24 @@ body{
     padding: 0.8rem 1.8rem 0px 1.8rem;
 }
 
-.buttons-group i{
-    padding-top: 2px;
+
+.btn-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     font-size: 22px;
+    background-color: #6E707A;
+    color: #E7E7EB;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+}
+
+.font-circle{
+    font-size: 18px;
+    font-weight: 800;
 }
 
 .items-sidebar img{
